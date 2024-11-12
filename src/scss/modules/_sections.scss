@@ -1,3 +1,20 @@
+header {
+  background-image: url(/src/img/header.png);
+}
+
 footer {
   background-color: black;
+}
+
+.section-red-black {
+  background: linear-gradient(180deg, #e93f56 1.31%, #050e0b 71.93%);
+}
+
+.section-green {
+  background-image: url(/src/img/fond_vert.png);
+}
+
+.section-black {
+  background: var(--black, #000);
+  color: #fff;
 }
