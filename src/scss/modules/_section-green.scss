@@ -1,0 +1,42 @@
+.section-green {
+  background-image: url(/src/img/fond_vert.png);
+}
+
+.section-green {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2821px;
+  width: 100vw;
+}
+
+.green {
+  text-align: center;
+}
+
+.green-1 {
+  position: absolute;
+  left: 30%;
+  top: 0;
+  width: 752px;
+  height: 826px;
+  flex-shrink: 0;
+  margin-top: 30px;
+}
+
+.green-2 {
+  position: absolute;
+  right: 19%;
+  top: 28%;
+  width: 450px;
+  height: 927px;
+}
+
+.green-3 {
+  position: absolute;
+  left: 29%;
+  top: 59%;
+  width: 768px;
+  height: 565px;
+}

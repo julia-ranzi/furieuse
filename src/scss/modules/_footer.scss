@@ -1,3 +1,14 @@
 footer {
   background-color: black;
+  display: flex;
+  padding: 70px;
+}
+
+.socials {
+  display: flex;
+  padding: 42px 0;
+}
+
+.footer-right {
+  align-items: flex-end;
 }

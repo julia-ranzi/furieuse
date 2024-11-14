@@ -1,20 +1,59 @@
-.container-carousel {
-  display: inline-flex; /* Alignement horizontal pour une rangée continue */
-  height: 100vh; /* Occupe toute la hauteur de la fenêtre pour rester cohérent avec .intro-section et .outre-section */
+.scroll-container {
+  display: inline-flex;
+  height: 100vh;
+  position: relative;
 }
 
 .horizontal-scroll {
-  height: 100vh; /* Fixe la hauteur à la hauteur de la fenêtre comme les autres */
-  overflow: hidden; /* Pas de défilement vertical à l'interiéur de cette class */
+  height: 100vh;
+  overflow: hidden;
 }
 
-.box {
-  min-width: 300svw; /* Pour que la box soit large et qu'il y ai de la surface pour le défilement horizontal au scroll */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 2em;
-  background-color: pink;
-  border: 2px solid #333;
-  margin: 20px;
+#carousel1 {
+  z-index: 7;
+  position: absolute;
+  top: 100px;
+  left: 30px;
+}
+
+#carousel2 {
+  z-index: 6;
+  position: absolute;
+  top: 380px;
+  left: 445px;
+}
+
+#carousel3 {
+  z-index: 5;
+  position: absolute;
+  top: 0px;
+  left: 945px;
+}
+
+#carousel4 {
+  position: absolute;
+  top: 420px;
+  left: 1297px;
+  z-index: 4;
+}
+
+#carousel5 {
+  z-index: 3;
+  position: absolute;
+  top: 50px;
+  left: 1765px;
+}
+
+#carousel6 {
+  z-index: 2;
+  position: absolute;
+  top: 0px;
+  left: 2285px;
+}
+
+#carousel7 {
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+  left: 2665px;
 }

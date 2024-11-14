@@ -23,6 +23,8 @@
 .section-black {
   display: flex;
   padding: 70px;
+  background: var(--black, #000);
+  color: #fff;
 }
 
 .info-book {
