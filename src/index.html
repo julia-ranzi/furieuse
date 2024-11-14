@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="scss/main.scss" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
     <link
       href="https://fonts.googleapis.com/css2?family=Bokor&family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
       rel="stylesheet"
@@ -15,7 +16,11 @@
   <body>
     <header>
       <h1>
-        <img src="img/logo-white.svg" alt="le logo furieuse" />
+        <img
+          class="logo-white"
+          src="img/logo-white.svg"
+          alt="le logo furieuse"
+        />
       </h1>
       <button>acheter la bd</button>
     </header>
@@ -23,22 +28,41 @@
       <div class="section-red-black">
         <p>un ouvrage de Mathieu Burniat et Geoffroy Monde</p>
         <div class="citation">
-          <p>Briser les chaînes, Ecraser le pouvoir</p>
+          <p>
+            Briser les chaînes,<br />
+            Ecraser le pouvoir
+          </p>
         </div>
-        <div class="container-carousel">
-          <img
-            src="img/carousel1.png"
-            alt="Ysa qui se fait attraper par un homme"
-          />
-          <img src="img/carousel2.png" alt="Ysa qui discute avec sa soeur" />
-          <img
-            src="img/carousel3.png"
-            alt="Ysa qui dit à un garçon de la lâcher"
-          />
-          <img src="img/carousel4.png" alt="Ysa appeurée avec son épée" />
-          <img src="img/carousel5.png" alt="Ysa fâchée" />
-          <img src="img/carousel6.png" alt="Ysa fâchée" />
-          <img src="img/carousel7.png" alt="Ysa assise seule avec son épée" />
+        <div class="horizontal-scroll">
+          <div class="container-carousel">
+            <img
+              class="box"
+              src="img/carousel1.png"
+              alt="Ysa qui se fait attraper par un homme"
+            />
+            <img
+              class="box"
+              src="img/carousel2.png"
+              alt="Ysa qui discute avec sa soeur"
+            />
+            <img
+              class="box"
+              src="img/carousel3.png"
+              alt="Ysa qui dit à un garçon de la lâcher"
+            />
+            <img
+              class="box"
+              src="img/carousel4.png"
+              alt="Ysa appeurée avec son épée"
+            />
+            <img class="box" src="img/carousel5.png" alt="Ysa fâchée" />
+            <img class="box" src="img/carousel6.png" alt="Ysa fâchée" />
+            <img
+              class="box"
+              src="img/carousel7.png"
+              alt="Ysa assise seule avec son épée"
+            />
+          </div>
         </div>
         <div class="citation">
           <p>Fini de se faire ecraser !</p>
