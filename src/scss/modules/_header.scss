@@ -1,6 +1,12 @@
 header {
   background-image: url(/src/img/header.png);
   background-repeat: no-repeat;
-  width: 1741px;
-  height: 880px;
+  background-size: cover;
+  padding-bottom: 600px;
+}
+
+.logo-white {
+  position: relative;
+  top: 590px;
+  left: 180px;
 }

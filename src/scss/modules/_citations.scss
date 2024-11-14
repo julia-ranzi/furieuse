@@ -1,5 +1,4 @@
 .citation {
-  color: var(--white, #fff);
   text-align: center;
   font-family: "Bokor", system-ui;
   font-size: 128px;
@@ -9,6 +8,12 @@
   text-transform: uppercase;
 }
 
-.section-red-black .citation {
-  padding: 150px 170px;
+.citation-1 {
+  padding: 50px 70px;
+  color: var(--white, #fff);
+}
+
+.citation-2 {
+  padding: 280 0 150px 0;
+  color: #e93f56;
 }
