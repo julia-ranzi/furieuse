@@ -1,16 +1,20 @@
 .section-green {
-  background-image: url(/src/img/fond_vert.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.section-green {
+  // background: url(/src/img/fond_vert.png) lightgray 50% / cover no-repeat;
+  // filter: blur(14.149999618530273px);
   position: relative;
-  display: flex;
   align-items: center;
   justify-content: center;
   height: 2821px;
-  width: 100vw;
+  width: 99vw;
+}
+
+.fond-vert {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: blur(14.149999618530273px);
 }
 
 .green {
@@ -20,7 +24,7 @@
 .green-1 {
   position: absolute;
   left: 30%;
-  top: 0;
+  top: 12%;
   width: 752px;
   height: 826px;
   flex-shrink: 0;
@@ -29,16 +33,16 @@
 
 .green-2 {
   position: absolute;
-  right: 19%;
-  top: 28%;
+  right: 3%;
+  top: 40%;
   width: 450px;
   height: 927px;
 }
 
 .green-3 {
   position: absolute;
-  left: 29%;
-  top: 59%;
+  left: 28%;
+  top: 72%;
   width: 768px;
   height: 565px;
 }
